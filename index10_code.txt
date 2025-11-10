@@ -7,10 +7,9 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <style>
 body{
-background-color: rgba(0, 0, 0,0.9);
+background-color: rgb(255, 255, 255);
 display:flex;
 flex-direction:column;
-color: white;
 
 }
 .title{
@@ -32,11 +31,10 @@ top:3px;
 border:2px dashed black;
 }
 .navbar_design{
-
   height: 8vh;
       width: 100vw;
-      background: #4f4d4b8b;
-    
+      background: rgba(79, 77, 75, 0.547);
+      
       display: flex;
       justify-content: space-around ;
       align-items: center;
@@ -47,7 +45,7 @@ border:2px dashed black;
 .logo_design{
 height:50px;
 width:50px;
-margin:8px;
+margin:10px;
 }
 /* Background style rules written here */
 .background_style{
@@ -73,7 +71,6 @@ color:white;
 box-shadow: 2px 2px  white ;
 } 
 button:hover{
-  scale: 1.1;
   box-shadow:#0d6dc1 ;
 }
 .navbar_brand_title{
@@ -104,13 +101,11 @@ color: #000;
 
 }
 footer{
-  border: 4px solid #000;
 width:100vw;
     position:absolute;
 bottom:0vh;
- background-color: #303233;
-    
-  color: rgb(0, 0, 0);
+ background-color:#060707;   
+  color: white;
     text-align: center;
     padding: 20px;
 
@@ -120,8 +115,6 @@ height:5vh;
 width:13vw;
 position:relative;
 top:7px;
-background-color: white;
-color: #000;
 }
 ._title{
 height:auto;
@@ -153,22 +146,11 @@ left:100px;
 }
 .line_design{
   position: absolute;
-  top:0px;
-  left:10px;
+  top:100px;
+  left:100px;
   height: 30px;
-  width:10px;
+  width:5px;
 }
-header{
-    font-size: 35px;
-    height: 50px;
-    background-color: #32abe8b3;
-    color: white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-}
-
 </style>
 </head>
 <body >
@@ -177,9 +159,8 @@ header{
   <div class="container-fluid navbar_design "  >
 <!--nav bar title-->
  
-<div class="line_design" >  </div>  
 <img src="3.jpg"  alt="University logo" class=" logo_design"> 
-
+<div class="line_design" > . . </div>
 <div class="division" >
 
 </div>
@@ -209,7 +190,7 @@ header{
  <div class="line_design" >  </div>
 <div class="division" >  </div>
        <li class="nav-item"> 
-         <a class="nav-link" href="about_the_university1.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:7px; display:flexbox;justify-content:center;
+         <a class="nav-link" href="about_the_university.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:7px; display:flexbox;justify-content:center;
 align-items:center; width:50px;height:10px;"> About the university</p> </button>
  </a>
        
@@ -218,7 +199,7 @@ align-items:center; width:50px;height:10px;"> About the university</p> </button>
 
 </div>
 <li class="nav-item">
-          <a class="nav-link" href="about_the_institute1.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:7px; display:flexbox;justify-content:center;
+          <a class="nav-link" href="about_the_institute.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:7px; display:flexbox;justify-content:center;
 align-items:center; width:50px;height:10px;"> About the institute </p> </button>
  </a>
         </li>
@@ -228,7 +209,7 @@ align-items:center; width:50px;height:10px;"> About the institute </p> </button>
 
 
                   <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="news1.html"> <button type="button" class="btn btn-dark button_color">  News  </button>   
+          <a class="nav-link active" aria-current="page" href="news.html"> <button type="button" class="btn btn-dark button_color">  News  </button>   
   </a>
         </li>
         </li>
@@ -237,19 +218,19 @@ align-items:center; width:50px;height:10px;"> About the institute </p> </button>
 </div>
 
   <li class="nav-item">
-          <a class="nav-link" href="articles1.html"> <button type="button" class="btn btn-dark button_color">Articles </button>
+          <a class="nav-link" href="articles.html"> <button type="button" class="btn btn-dark button_color">Articles </button>
  </a>
         </li>
 <div class="division" >
 
 </div>
   <li class="nav-item">
-          <a class="nav-link" href="editorials1.html"> <button type="button" class="btn btn-dark button_color">Editorials </button>
+          <a class="nav-link" href="editorials.html"> <button type="button" class="btn btn-dark button_color">Editorials </button>
  </a>
         </li>
         <div class="division" >  </div>
 <li class="nav-item">
-          <a class="nav-link" href="achievements1.html"> <button type="button" class="btn btn-dark button_color">
+          <a class="nav-link" href="achievements.html"> <button type="button" class="btn btn-dark button_color">
  Achievements </button>
  </a>
         </li>
@@ -264,25 +245,22 @@ align-items:center; width:50px;height:10px;"> About the institute </p> </button>
           <ul class="dropdown-menu ">
  <li><a class="dropdown-item branches department_type" href="#">  I.T branches </a></li>
 
-            <li><a class="dropdown-item  department" href="computerscience1.html"> Computer Science</a></li>
-            <li><a class="dropdown-item department" href="informationscience1.html"> Information Science</a></li>
-<li><a class="dropdown-item  department" href="artificalintelligenceandmachinelearning1.html">Aritifical Intelligence and Machine Learning  </a></li>
-<li><a class="dropdown-item  department" href="artificalintelligenceanddatascience1.html">Aritifical Intelligence and Data Science  </a></li>
-<li><a class="dropdown-item department" href="cybersecurity1.html"> Cyber Security </a></li>
-<li><a class="dropdown-item department" href="computerandcommunication1.html"> Computer and Communication </a></li>
-<li><a class="dropdown-item department" href="roboticsandai1.html"> Robotics and A.I </a></li>
+            <li><a class="dropdown-item  department" href="computerscience.html"> Computer Science</a></li>
+            <li><a class="dropdown-item department" href="informationscience.html"> Information Science</a></li>
+<li><a class="dropdown-item  department" href="artificalintelligenceandmachinelearning.html">Aritifical Intelligence and Machine Learning  </a></li>
+<li><a class="dropdown-item  department" href="artificalintelligenceanddatascience.html">Aritifical Intelligence and Data Science  </a></li>
+<li><a class="dropdown-item department" href="cybersecurity.html"> Cyber Security </a></li>
+<li><a class="dropdown-item department" href="computerandcommunication.html"> Computer and Communication </a></li>
+<li><a class="dropdown-item department" href="roboticsandai.html"> Robotics and A.I </a></li>
 
             <li><hr class="dropdown-divider branches "></li>
             <li><a class=" department_type dropdown-item branches" href="#"> Non I.T branches </a></li>
-            
-<li><a class="dropdown-item department" href="electronicsandcommunication1.html"> Electronics and Communication </a></li>
-<li><a class="dropdown-item department" href="biotechnology1.html"> Biotechnology </a></li>
-<li><a class="dropdown-item department" href="electronicsandcommunicationact1.html"> Electronics and Communication(Advanced Communication Technology) </a></li>
-<li><a class="dropdown-item department" href="electronicsandcommunicationvlsi1.html">Electronics and Communication(VLSI) </a></li>
-<li><a class="dropdown-item department" href="electricalandelectronics1.html"> Electrical and  Electronics </a></li>
-<li><a class="dropdown-item department" href="civil1.html"> Civil  </a></li>
-
-<li><a class="dropdown-item department" href="mechanical1.html"> Mechanical </a></li>
+<li><a class="dropdown-item department" href="electronicsandcommunication.html"> Electronics and Communication </a></li>
+<li><a class="dropdown-item department" href="electronicsandcommunicationact.html"> Electronics and Communication(Advanced Communication Technology) </a></li>
+<li><a class="dropdown-item department" href="electronicsandcommunicationvlsi.html">Electronics and Communication(VLSI) </a></li>
+<li><a class="dropdown-item department" href="electricalandelectronics.html"> Electrical and  Electronics </a></li>
+<li><a class="dropdown-item department" href="civil.html"> Civil  </a></li>
+<li><a class="dropdown-item department" href="mechanical.html"> Mechanical </a></li>
 
 
           </ul>
@@ -291,7 +269,7 @@ align-items:center; width:50px;height:10px;"> About the institute </p> </button>
 
 </div>
 <li class="nav-item">
-          <a class="nav-link" href="technical_events1.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:8px;font-weight:600; display:flexbox;justify-content:center;
+          <a class="nav-link" href="technical_events.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:8px;font-weight:600; display:flexbox;justify-content:center;
 align-items:center; width:50px;height:10px;"> Technical events </p> </button>
  </a>
         </li>
@@ -309,10 +287,11 @@ align-items:center; width:50px;height:10px;"> Technical events </p> </button>
   </div>
    
 </nav>
- <header>  EDITORIALS </header>
- <br>
-<div > 
-<p>   </p>
+
+
+
+
+
 
 <footer>
         <p>&copy;2025 QuickInfo. All rights reserved.</p>

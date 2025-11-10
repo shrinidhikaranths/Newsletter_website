@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0,0,0,0.9) ;
+height: auto ;
+        }
+        form{
+            display: flex;
+flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 5vh ;
+            background-color: #32abe8b3 ;
+            color: white ;
+            width: 100vw ;
+        }
+        footer{
+            height: 10vh; ;
+            width: 100vw ;
+            position: absolute;
+            top:80vh;display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #303233 ;
+            border: px solid #000;
+            color: #000;
+        }
+        form{
+            padding:  5vh ;
+           border-radius: 10%;
+height: 50vh ;
+width:35vw;
+color: white;
+            background-color: #143343  ;
+           position: relative;
+           top:9vh;
+        }
+        .signup_text,.signin_text{
+position:absolute;
+top:0vh;
+left:16vw;
+font-weight:300;
+font-size:5vh;
+color: white ;
+
+
+}
+.textbox{
+    border-radius: 50% ;
+    background-color: rgba(0,0,0,0.7) ;
+}
+button{
+    border-radius:10% ;
+background-color: rgba(0,0,0,0.9);
+color: white ;
+}
+button:hover{
+scale:1.1 ;
+background-color: #32abe8b3 ;
+color: #000  ;
+}
+    </style>
+</head>
+ <body >
+    <header > QuickInfo </header>
+<div id="box1">  </div>
+
+<form   >
+    <div class="signup_text"> Sign Up </div>
+<label for="name">Name:</label> <br>
+<input type="text" id="name" class="textbox" name="name" style="border-radius: 10%; width:25vw;" class="name"> <br>
+<label for="email">Email:</label> <br>
+<input type="email" id="email" class="textbox" name="email" style="border-radius: 10%; width:25vw;"  placeholder="Eg:dumpy_text@gmail.com" class="email"> <br>
+<label for="password">   Password:</label>  <br>
+<input type="password" class="textbox" id="password" name="password"  style="border-radius: 10%; width:25vw; "  placeholder="Include both alphanumeric and special characters" class="password"> <br>
+<br>
+<a href="index.html">   <button  type="submit">Sign Up </button> </a> <br>
+
+<footer>
+	&copy; 2025 QuickInfo. All rights reserved.
+</footer>
+
+</body >
+</html>

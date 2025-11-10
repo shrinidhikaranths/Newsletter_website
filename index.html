@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickInfo Sign Up and Sign In  page </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<style>
+body{
+  background-color: rgba(0, 0, 0,0.9);
+}
+.title{
+width:65px;
+height:50px;
+border-radius:50%;
+color:black;
+font-weight:50;
+background:linear-gradient(#3e3b39,#3d39363d,#3d39363d,#3e3b39);
+font-size:10px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+position:relative;
+background:linear-gradient(#e1b255);
+left:10px;
+top:3px;
+border:2px dashed black;
+}
+.navbar_design{
+  height: 8vh;
+      width: 100vw;
+      background: rgba(79, 77, 75, 0.547);
+      
+      display: flex;
+      justify-content: space-around ;
+      align-items: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.838);
+    }
+
+/* Logo style rules written below */
+.logo_design{
+height:50px;
+width:50px;
+margin-top:2px;
+position: absolute;
+left:45vw;
+}
+/* Background style rules written here */
+.background_style{
+  
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+width:100vw;
+height:100vh;
+border:2px solid black;
+border-radius:0%;
+}
+.department{
+background:linear-gradient(90deg,#0d6dc1 );
+color:white;
+}
+.button_color{
+  height:auto;
+  width:auto ;
+background:linear-gradient(90deg,#000000,#000000);
+color:white;
+box-shadow: 2px 2px  white ;
+} 
+button:hover{
+  box-shadow:#0d6dc1 ;
+  scale:1.09;
+}
+.navbar_brand_title{
+background: linear-gradient(rgb(6, 107, 162),#ffe205) ;
+height:6vh;
+width:4vw;
+position: absolute;
+top:5px;
+left:50vw;
+display: flex ;
+justify-content: center;
+align-items:center;
+font-size: 1.5vh;
+border-radius:50% ;
+color:white;
+border:2px solid #000 ;
+}
+.search_bar{
+  background-color: #0d6dc1;
+width:8vw;
+height:4vh;
+position:relative;
+top:10px;
+font-size:10px;
+font-weight:500;
+color: #000;
+
+}
+footer{
+width:100vw;
+    position:absolute;
+bottom:0vh;
+ background-color: #303233;
+  color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+.search_bar_text_field{
+height:5vh;
+width:13vw;
+position:relative;
+top:7px;
+}
+._title{
+height:auto;
+width:100vw;
+background-color:#2f2c2c2a;
+color:rgb(10, 205, 240);
+font-size:40px;
+text-align:center;
+}
+
+.carousel{
+height:500px;
+width:400px;
+position:absolute;
+top:250px;
+left:100px;
+}
+
+.button_color:hover{
+  scale:1.1;
+  box-shadow: 3px 2px #0483c7 ;
+  
+}
+.division{
+  width:10px;
+}
+.department_type{
+  background-color:  #0000002b;
+  height:5vh;
+}
+.line_design{
+  position: absolute;
+  top:1vh;
+  margin: 0.5vh ;
+  left:48.9vw;
+  height: 5vh;
+  width:1.5px;
+  background-color: #000;
+}
+.QuickInfo_description{
+  font-size:3vh ;
+  color:white;
+}
+.sign_in_button, .sign_up_button{
+background-color: #0d6dc1;
+color: #000;
+height: 5vh;
+width:5vw;
+border-radius: 10%;
+
+}
+.sign_in_button .a {
+  font-style:none ;
+}
+.sign_in_button:hover{
+  scale: 1.2;
+color:white;
+}
+.sign_up_button:hover{
+  scale: 1.09;
+color:white;
+}
+.signUp_signIn_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+position: relative;
+height:200px;
+width:350px;
+top:30px;
+left:35vw;
+
+}
+.or{
+  position: relative;
+  top:-5vh;
+  color: white;
+}
+</style>
+</head>
+<body >
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar_design  ">
+  <div class="container-fluid navbar_design "  >
+<!--nav bar title-->
+ 
+<img src="3.jpg"  alt="University logo" class=" logo_design"> 
+
+
+
+<div class="division" >
+
+</div>
+
+ <p class="navbar_brand_title" href="#"> QuickInfo </p>
+
+<div class="line_design" >  </div>
+
+   
+</nav>
+<div class="QuickInfo_description" > 
+<h1> About QuickInfo </h1>
+<p> QuickInfo is the unofficial newsletter website of NMAMIT which is afflilated to Nitte University (D.U).
+   Nitte University being in the top 65 universities of India and the institue being one of the important college of the university, offers engineering courses in various domains.
+    As the institute is growing and gaining more achievements to its account QuickInfo plays a vital role in bringing the insights of the
+     technical events and education details of the institute .  </p>
+</div>
+<form class="signUp_signIn_form"   >    
+<button class="sign_in_button" ><a href="signup.html" >    Sign Up </a> </button>  
+<br>
+<br>
+<p class="or" > or</p>
+ <button class="sign_in_button" ><a href="signin.html" >    Sign In </a> </button>  
+</div>
+</form>
+
+
+<footer>
+        <p>&copy;2025 QuickInfo. All rights reserved.</p>
+        <div class="social-links">
+            
+           
+            <a href="#"><img src="1.jpg" height:5px width:5px alt="Instagram"></a>
+            <a href="#"><img src="2.jpg" height:5px width:5px alt="Whatsapp"></a>
+        
+   
+    </footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+</script>
+</body>
+</html>

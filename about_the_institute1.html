@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<style>
+body{
+background:linear-gradient(90deg,#2a618b,#26679a,#f9e851,#e7d000);
+display:flex;
+flex-direction:column;
+
+}
+.title{
+width:65px;
+height:50px;
+border-radius:50%;
+color:black;
+font-weight:50;
+background:linear-gradient(#c95000,#e48028,#e35f12,#cb7a02);
+font-size:10px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+position:relative;
+left:10px;
+top:3px;
+border:2px dashed black;
+}
+.navbar_design{
+background-color:#444;
+border:2px solid black;
+color:#3da0f6;
+height:13vh;
+width:100vw;
+background-color:#fe4b4b;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+
+}
+/*The style design for the line (div) beside the logo is written below */
+.line_design{
+height:20px;
+width:2px;
+position:absolute;
+top:0px;
+left:20px;
+max-heigth:100vh;
+max-width:100vw;
+
+}
+/* Logo styles rules written below */
+.logo_design{
+height:50px;
+width:50px;
+
+}
+/* Background style rules written here */
+.background_style{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+width:100vw;
+height:100vh;
+border:2px solid black;
+border-radius:0%;
+}
+.demo{
+flex-direction:row;
+padding:2px;
+display:flex;
+}
+.department{
+background:linear-gradient(90deg,#026fcd,#d3c016);
+color:white;
+}
+.button_color{
+background:linear-gradient(90deg,#b18712,#0d3e6f);
+color:white;
+
+}
+.search_bar{
+width:8vw;
+height:4vh;
+position:relative;
+top:10px;
+font-size:10px;
+font-weight:500;
+}
+.search_bar_text_field{
+height:5vh;
+width:13vw;
+position:relative;
+top:7px;
+}
+footer{
+    position:absolute;
+bottom:0vh;
+width:100vw;
+ background-color:#11121395;   
+  color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.department_title{
+height:auto;
+width:100vw;
+background-color:#2f2c2c2a;
+color:black;
+font-size:40px;
+text-align:center;
+}
+
+
+</style>
+</head>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary navbar_design ">
+  <div class="container-fluid">
+<!--nav bar title-->
+
+<img src="3.jpg"  alt="University logo" class=" logo_design"> 
+<div class="line_design" >  </div>
+
+ <p class="navbar-brand title" href="#"> QuickInfo </p>
+
+
+
+    <button class="navbar-toggler navbar_design" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"> </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         
+        <li class="nav-item">
+          <a class="nav-link" href="index10.html"> <button type="button" class="btn btn-dark button_color">Home </button>
+ </a>
+        </li>
+
+       
+         <a class="nav-link" href="about_the_university.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:7px; display:flexbox;justify-content:center;
+align-items:center; width:50px;height:10px;"> About the university</p> </button>
+ </a>
+        </li>
+        </li>
+<li class="nav-item">
+          <a class="nav-link" href="about_the_institute.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:7px; display:flexbox;justify-content:center;
+align-items:center; width:50px;height:10px;"> About the institute </p> </button>
+ </a>
+        </li>
+
+
+
+                  <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="news.html"> <button type="button" class="btn btn-dark button_color">  News  </button>   
+  </a>
+        </li>
+        </li>
+
+
+  <li class="nav-item">
+          <a class="nav-link" href="articles.html"> <button type="button" class="btn btn-dark button_color">Articles </button>
+ </a>
+        </li>
+
+  <li class="nav-item">
+          <a class="nav-link" href="editorials.html"> <button type="button" class="btn btn-dark button_color">Editorials </button>
+ </a>
+        </li>
+<li class="nav-item">
+          <a class="nav-link" href="achievements.html"> <button type="button" class="btn btn-dark button_color">
+ Achievements </button>
+ </a>
+        </li>
+
+<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <button type="button" class="btn btn-dark button_color "> Departments </button>
+
+          </a>
+          <ul class="dropdown-menu ">
+ <li><a class="dropdown-item branches" href="#">  I.T branches </a></li>
+
+            <li><a class="dropdown-item  department" href="computerscience.html"> Computer Science</a></li>
+            <li><a class="dropdown-item department" href="informationscience.html"> Information Science</a></li>
+<li><a class="dropdown-item  department" href="artificalintelligenceandmachinelearning.html">Aritifical Intelligence and Machine Learning  </a></li>
+<li><a class="dropdown-item  department" href="artificalintelligenceanddatascience.html">Aritifical Intelligence and Data Science  </a></li>
+<li><a class="dropdown-item department" href="cybersecurity.html"> Cyber Security </a></li>
+<li><a class="dropdown-item department" href="computerandcommunication.html"> Computer and Communication </a></li>
+<li><a class="dropdown-item department" href="roboticsandai.html"> Robotics and A.I </a></li>
+
+            <li><hr class="dropdown-divider branches "></li>
+            <li><a class=" department_type dropdown-item branches" href="#"> Non I.T branches </a></li>
+<li><a class="dropdown-item department" href="electronicsandcommunication.html"> Electronics and Communication </a></li>
+<li><a class="dropdown-item department" href="electronicsandcommunicationact.html"> Electronics and Communication(Advanced Communication Technology) </a></li>
+<li><a class="dropdown-item department" href="electronicsandcommunicationvlsi.html"">Electronics and Communication(VLSI) </a></li>
+<li><a class="dropdown-item department" href="electricalandelectronics.html"> Electrical and  Electronics </a></li>
+<li><a class="dropdown-item department" href="civil.html"> Civil  </a></li>
+<li><a class="dropdown-item department" href="mechanical.html"> Mechanical </a></li>
+
+
+          </ul>
+        </li>
+<li class="nav-item">
+          <a class="nav-link" href="technical_events.html"> <button type="button" class="btn btn-dark button_color"><p style="font-size:8px;font-weight:600; display:flexbox;justify-content:center;
+align-items:center; width:50px;height:10px;"> Technical events </p> </button>
+ </a>
+        </li>
+
+        </li>
+      
+      <form class="d-flex" role="search">
+        <input class="form-control search_bar_text_field  me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success search_bar  " type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<p class="department_title" >  ABOUT THE INSITUTE</p>
+<p>  
+NMAM Institute of Technology(NMAMIT), Nitte, established in 1986 and recognized by the All India 
+Council for Technical Education, New Delhi, is now a constituent college of Nitte 
+(Deemed to be University), Mangaluru, since June 2022. Rank band 151-200 in the National 
+Institutional Ranking Framework (NIRF) 2024 by Ministry of Education, Government of India,
+ the College has been placed under ‘Platinum’ category for having high industry linkages by the
+  AICTE-CII Survey of Industry-Linked Technical Institutes 2020. NMAMIT, the off-campus centre of 
+  Nitte DU located at Nitte in Karkala Taluk, has active collaborations with several international
+   universities and organizations for faculty and student exchanges, research, internships and placements.
+<br>
+
+The Institute offers UG engineering program in fifteen disciplines; Artificial Intelligence & Machine Learning (AI&ML), Artificial Intelligence
+ & Data Science (AI&DS), Biotechnology (BT), Civil Engineering(CIV), Computer & Communication Engineering (CCE), Computer Science & Engineering(CS)
+ ,Computer Science (Cyber Security), Computer Science (Full Stack Development), Electrical & Electronics Engineering (E&E), Electronics & Communication Engineering (E&C), Electronics (VLSI Design & Technology), Electronics & Communication Engineering (ACT), Information Science & Engineering (IS) , Mechanical Engineering(MECH) and Robotics & Artificial Intelligence (R&AI ). Out of these programs, seven UG programs i.e., BT, CIV, CS,E&E, E&C, IS and MECH are accredited by NBA, New Delhi under Tier - I category. The institute also offers PG program M.Tech. in seven disciplines namely Construction Technology, Computer Science & Engineering,Cyber Security, Electric Vehicle Technology, Mechatronics, Structural Engineering and VLSI Design & Embedded Systems as well as the Master of Computer Applications program is accredited by the National Board of Accreditation (NBA). All the departments have qualified research guides for students interested in taking up research work leading to Ph.D.
+<br>
+<br>
+NMAMIT is housed in a vibrant, serene and green campus at Nitte spread over 125 acres and is nestled in the Western 
+Ghats of Southern India on the way to the Kudremukh ranges. The nearest airport is Mangaluru International Airport 
+(45 km). The nearest railway stations are Udupi (40 km) and Mangaluru (50 km). Nitte is 19 km from NH-66 connecting 
+Kochi (Kerala) and Panvel (Mumbai) and 7 km from NH-169 connecting Mangaluru and Solapur (Maharashtra).
+</p>
+<br>
+</p>
+<footer><div class="footer-content">
+        <p>&copy;2025 QuickInfo .All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><img src="2.jpg" height:5px width:5px alt="Facebook"></a>
+           
+            <a href="#"><img src="1.jpg" height:5px width:5px alt="Instagram"></a>
+        </div>
+     </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
